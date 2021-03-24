@@ -9,6 +9,7 @@
 body {
   padding: 1em;
   font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: hsl(210, 46%, 95%);
 }
 
 .main-container {
@@ -60,6 +61,27 @@ body {
     background: url('/images/bg-pattern-quotation.svg') no-repeat 90% 0%;
     background-color: hsl(263, 55%, 52%);
     color: white;
+  }
 
+  .jonathan {
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+  }
+
+  .jeanette {
+    background-color: white;
+    color: hsl(217, 19%, 35%);
+  }
+
+  .patrick {
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+  }
+
+  .kira {
+    background-color: white;
+    color: hsl(217, 19%, 35%);
   }
 }
+
+@import 'desktop';
