@@ -1,10 +1,47 @@
 @media only screen and (min-width: 1024px) {
 
   .main-container {
+    padding: 2em;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    gap: 1em;
+
+    .card {}
+
+    .daniel {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+
+    .jonathan {
+      grid-column-start: 3;
+      grid-column-end: 4;
+    }
+
+    .jeanette {
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+
+    .patrick {
+      grid-column-start: 2;
+      grid-column-end: 4;
+    }
+
+    .kira {
+      grid-row-start: 1;
+      grid-row-end: 3;
+      grid-column-start: 4;
+      grid-column-end: 5;
+    }
   }
+}
 
+@media only screen and (min-width: 1440px) {
 
+  .main-container {
+    padding: 10em;
+    gap: 2em;
+  }
 }
